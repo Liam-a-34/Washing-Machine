@@ -35,7 +35,42 @@
 
 #left-panel{
     width: 33%;
-    height: 100%
+    height: 100%;
+    position: relative;
+}
+
+.left-button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+}
+
+#left-button-1{
+    top: 25%;
+    left: 20px;
+}
+
+#left-button-2{
+    top: 25%;
+    left: 40px
+}
+
+#left-button-3{
+    top: 25%;
+    left: 60px;
+}
+
+#left-handle{
+    width: 50px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    box-shadow: rgb(183, 183, 183) 2px 3px  inset
 }
 
 #middle-panel{
@@ -124,4 +159,15 @@
 #right-panel{
     width: 33%;
     height: 100%;
+}
+
+#door{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: rgb(166, 166, 166);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
