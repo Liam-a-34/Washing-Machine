@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#washer-cont{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(205, 202, 202);
+}
+
+#washer-body{
+    background-color: white;
+    height: 400px;
+    width: 320px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+}
