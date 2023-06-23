@@ -109,7 +109,7 @@
 }
 
 .dial-select{
-    width: 15px;
+    width: 10px;
     height: 2px;
     background-color: black;
 }
@@ -117,41 +117,41 @@
 #dial-select-1{
     position: absolute;
     top: 35%;
-    left: 15px;
+    left: 20px;
     transform: translateY(-50%) rotate(25deg);
 }
 
 #dial-select-2{
     position: absolute;
     top: 50%;
-    left: 12px;
+    left: 17px;
     transform: translateY(-50%);
 }
 
 #dial-select-3{
     position: absolute;
     top: 65%;
-    left: 15px;
+    left: 20px;
     transform: translateY(-50%) rotate(-25deg);
 }
 
 #dial-select-4{
     position: absolute;
-    right: 15px;
+    right: 20px;
     top: 35%;
     transform: translateY(-50%) rotate(-25deg);
 }
 
 #dial-select-5{
     position: absolute;
-    right: 12px;
+    right: 17px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 #dial-select-6{
     position: absolute;
-    right: 15%;
+    right: 20%;
     top: 65%;
     transform: translateY(-50%) rotate(25deg);
 }
@@ -167,7 +167,17 @@
     border-radius: 100%;
     background-color: rgb(166, 166, 166);
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#door-window{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    background-color: blue;
 }
